@@ -23,7 +23,7 @@ public class DecodeString {
         char leftBracket = '[';
         char rightBracket = ']';
         //以"3[a211[c]]"为例，拿到"a2[c]"的位置，处理成"3[acc]"递归处理
-        //左括号位置确定倍数
+        //左括号位置确定好倍数
         Integer leftBracketIndex = -1;
         //右括号位置确定括号内的字符
         Integer rightBracketIndex = -1;
